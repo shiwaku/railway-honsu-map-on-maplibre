@@ -129,7 +129,7 @@ map.on('load', () => {
     // 人口集中地区ソース
     map.addSource('did', {
         type: 'vector',
-        url: 'pmtiles://https://xs489works.xsrv.jp/pmtiles-data/r2DID/2020_did_ddsw_01-47_JGD2011.pmtiles',
+        url: 'pmtiles://https://shi-works.com/pmtiles/r2DID/2020_did_ddsw_01-47_JGD2011.pmtiles',
         attribution:
             '<a href="https://www.e-stat.go.jp/gis">政府統計の総合窓口[e-Stat] 人口集中地区（2020年）</a>',
     });
@@ -150,7 +150,7 @@ map.on('load', () => {
     // 令和2年簡易100mメッシュ人口（全国）ソース
     map.addSource('100m_mesh_pop2020', {
         type: 'vector',
-        // url: 'pmtiles://https://xs489works.xsrv.jp/pmtiles-data/100m_mesh_pop2020/100m_mesh_pop2020_v2.pmtiles',
+        // url: 'pmtiles://https://shi-works.com/pmtiles/100m_mesh_pop2020/100m_mesh_pop2020_v2.pmtiles',
         url: 'pmtiles://https://pmtiles-data.s3.ap-northeast-1.amazonaws.com/100m_mesh_pop2020/100m_mesh_pop2020_v2.pmtiles',
         attribution:
             '<a href="https://gtfs-gis.jp/teikyo/index.html" target="_blank">地域・交通データ研究所 簡易100mメッシュ人口データ(2020年国勢調査ベース)</a>',
@@ -195,7 +195,7 @@ map.on('load', () => {
         type: 'vector',
         url:
             'pmtiles://' +
-            'https://xs489works.xsrv.jp/pmtiles-data/ksj/N03-23_230101_gyouseikai.pmtiles',
+            'https://shi-works.com/pmtiles/ksj/N03-23_230101_gyouseikai.pmtiles',
         attribution:
             '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html">国土数値情報 行政区域データ（令和5年度）</a>',
     });
@@ -217,7 +217,7 @@ map.on('load', () => {
     // バスルートベクトルタイル
     map.addSource('pmtiles-bus-route', {
         type: 'vector',
-        url: 'pmtiles://' + 'https://xs489works.xsrv.jp/pmtiles-data/ksj/N07_22_bus_route.pmtiles',
+        url: 'pmtiles://' + 'https://shi-works.com/pmtiles/ksj/N07_22_bus_route.pmtiles',
         attribution:
             '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-v2_0.html">国土数値情報 バスルートデータ（令和4年度）を加工して作成</a>',
     });
@@ -269,7 +269,7 @@ map.on('load', () => {
     // バス停留所ベクトルタイル
     map.addSource('pmtiles-bus-stop', {
         type: 'vector',
-        url: 'pmtiles://' + 'https://xs489works.xsrv.jp/pmtiles-data/ksj/P11_22_bus_stop.pmtiles',
+        url: 'pmtiles://' + 'https://shi-works.com/pmtiles/ksj/P11_22_bus_stop.pmtiles',
         attribution:
             '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-v3_0.html">国土数値情報 バス停留所データ（令和4年度）を加工して作成</a>',
     });
@@ -407,7 +407,7 @@ map.on('load', () => {
     // 鉄道駅ラインソース
     map.addSource('ksj-station', {
         type: 'vector',
-        url: 'pmtiles://https://shiworks.xsrv.jp/pmtiles-data/gtfs-gis/railway_honsu/N02-22_Station.pmtiles',
+        url: 'pmtiles://https://shi-works.com/pmtiles/gtfs-gis/railway_honsu/N02-22_Station.pmtiles',
         attribution:
             '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2022.html">国土数値情報 鉄道データ(2022年度)</a>',
     });
@@ -458,7 +458,7 @@ map.on('load', () => {
     // 役場ソース
     map.addSource('town-hall', {
         type: 'geojson',
-        data: 'https://xs489works.xsrv.jp/pmtiles-data/ksj/P05-22_01_47_town_hall_add_cityname.geojson',
+        data: 'https://shi-works.com/pmtiles/ksj/P05-22_01_47_town_hall_add_cityname.geojson',
         attribution:
             '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P05-v3_0.html">国土数値情報 市町村役場（令和4年度）</a>',
     });
